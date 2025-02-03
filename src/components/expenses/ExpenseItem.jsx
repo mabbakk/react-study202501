@@ -1,5 +1,6 @@
 import React from 'react'
 import './ExpenseItem.css'
+import ExpenseDate from "./ExpenseDate.jsx";
 
 const ExpenseItem = ({ title, price, date }) => {
     // console.log('props: ', props);
@@ -8,10 +9,20 @@ const ExpenseItem = ({ title, price, date }) => {
     // const expenseDate = props.date;
     // const expenseTitle = props.title;
     // const expensePrice = props.price;
+
+    // 날짜 포맷팅 함수
+    // const formatDate = () => {
+    //     const year = date.getFullYear();
+    //     const month = date.getMonth();
+    //     const day = date.getDate();
+    //
+    //     return `${year}년 ${month}월 ${day}일`;
+    // };
+
         
     return (
         <div className='expense-item'>
-            <div>{ date.toLocaleString() }</div>
+            <ExpenseDate expenseDate={date} />
             <div className='expense-item__description'>
                 <h2>{ title }</h2>
                 <div className='expense-item__price'>{ price }</div>
