@@ -18,15 +18,27 @@ function App() {
   */
 
   // const $h1 = React.createElement('h1', null, '안녕 리액트!!');
-  const $h1 = <h1>안녕 리액트</h1>;
-
-  const subject = 'Vanilla Javascript!!';
+  // const $h1 = <h1>안녕 리액트</h1>;
+  // const subject = 'Vanilla Javascript!!';
 
   // 렌더링 수행
-  // return $h1;
   return (
       <>
-          <ExpenseItem />
+          <ExpenseItem
+              title={'닭강정'}
+              price={8000}
+              date={ new Date(2025, 1, 3)}
+          />
+          <ExpenseItem
+              title={'아이스크림'}
+              price={5000}
+              date={ new Date(2025, 2, 1)}
+          />
+          <ExpenseItem
+              title={'자격증 책 구매'}
+              price={23000}
+              date={ new Date(2025, 1, 26)}
+          />
       </>
   );
 }
