@@ -1,4 +1,7 @@
 import ExpenseList from "./components/expenses/ExpenseList";
+import Counter from "./components/Counter";
+import NewExpense from "./components/new-expense/NewExpense";
+import CheckBoxStyle from "./components/practice/CheckBoxStyle";
 
 // 컴포넌트
 const App = () => {
@@ -24,6 +27,8 @@ const App = () => {
 
     return (
         <>
+            <CheckBoxStyle />
+            <NewExpense />
             <ExpenseList expenses={expenses} />
         </>
     );
