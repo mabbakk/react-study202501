@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import './ExpenseDate.css';
 
-const ExpenseDate = ({ expenseDate }) => {  // 디스트럭처링
+const ExpenseDate = ({ expenseDate }) => {
 
     // 월을 영문으로 변환
     const month = expenseDate.toLocaleString('en-US', {month: 'long'});
@@ -10,9 +10,9 @@ const ExpenseDate = ({ expenseDate }) => {  // 디스트럭처링
         <div className='expense-date'>
             <div className='expense-date__month'>{expenseDate.getFullYear()}</div>
             <div className='expense-date__year'>{ month }</div>
-            <div className='expense-date__day'>{expenseDate.getDate()}</div>
+            <div className='expense-date__day'>{ expenseDate.getDate() }</div>
         </div>
     );
-}
+};
 
-export default ExpenseDate
+export default ExpenseDate;
