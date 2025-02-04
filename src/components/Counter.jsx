@@ -13,6 +13,7 @@ const Counter = () => {
         // 상태값을 업데이트할 때는 상태값에 직접 접근하면 안되고
         // 반드시 setter를 통해 업데이트해야함
         setCount(count + 1);
+        setCount(count + 1);
         console.log('2. count by click: ', count);
     };
     const decreaseHandler = () => setCount(count - 1);
