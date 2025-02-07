@@ -11,10 +11,13 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.4.0",
+    "sass": "^1.84.0",
+    "styled-components": "^6.1.15"
   },
   "devDependencies": {
-    "@eslint/js": "^9.17.0",   // 문법 검사를 해주는 라이브러리
+    "@eslint/js": "^9.17.0",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
