@@ -1,7 +1,7 @@
 import React, {useRef, useState} from 'react';
 import styles from './AddUsers.module.css';
-import Card from '../ui/Card';
-import Button from '../ui/Button';
+import Card from '../ui/Card.jsx';
+import Button from '../ui/Button.jsx';
 import ErrorModal from '../ui/Modal/ErrorModal';
 
 const AddUsers = ({ onAddUser }) => {

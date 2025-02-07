@@ -1,6 +1,6 @@
 import React from 'react';
-import Card from '../Card';
-import Button from '../Button';
+import Card from '../Card.jsx';
+import Button from '../Button.jsx';
 import styles from './ErrorModal.module.css';
 
 // portal을 사용하기 위한

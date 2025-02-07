@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './UserList.module.css';
-import Card from '../ui/Card';
+import Card from '../ui/Card.jsx';
 
 const UserList = ({ users }) => {
     return (

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './CourseInput.module.css';
-import Button from '../ui/Button';
+import Button from '../ui/Button.jsx';
 
 const CourseInput = ({ onAdd }) => {
 
